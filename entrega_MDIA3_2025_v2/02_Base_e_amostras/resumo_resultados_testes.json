@@ -1,0 +1,158 @@
+{
+  "matricula": "202062044",
+  "base": "base_imobilizado_sintetica_500000.csv.gz",
+  "lista_verdade": "registro_excecoes_inseridas.csv",
+  "registros_de_dados": 500000,
+  "ids_unicos": 500000,
+  "amostra_aleatoria_simples": {
+    "n": 384,
+    "seed": 5302025,
+    "reposicao": false,
+    "criterio": "z=1,96; p=0,50; precisão absoluta=5%; correção populacional finita; amostra descritiva, não dimensionamento normativo de auditoria",
+    "objetivo_do_atributo": "presença de ID, classe e três campos monetários na base sintética",
+    "campos_chave_ausentes_na_amostra": 0,
+    "limite": "Não é teste de controle da companhia, nem amostra de auditoria sobre registros reais; não sustenta opinião"
+  },
+  "amostra_monetaria_MUS": {
+    "n_unidades_monetarias": 606,
+    "itens_unicos_selecionados": 603,
+    "seed_inicio_aleatorio": 5302026,
+    "populacao_valor_liquido_R$_mil": "3570990.000",
+    "materialidade_execucao_usada_como_distorcao_toleravel_R$_mil": "17706.750",
+    "fator_confianca": "3.0",
+    "risco_amostral_didatico": "5%",
+    "erro_esperado_assumido_R$_mil": "0",
+    "intervalo_sistematico_R$_mil": "5892.722772277227722772277228",
+    "inicio_aleatorio_R$_mil": "3875.512203076031",
+    "baixas_ficticias_na_selecao": 5,
+    "projecao_pontual_ficticia_baixas_R$_mil": "41785.44554455445544554455446",
+    "itens_de_certeza_exposicao_R$_mil": "30000.000",
+    "itens_nao_certeza_projetados": 2,
+    "baixas_ficticias_selecionadas_detalhe": [
+      {
+        "asset_id_sintetico": "SIM-IMOB-003001",
+        "valor_contabil_liquido_R$_mil": "12000.000",
+        "unidades_monetarias_selecionadas": 2,
+        "ordens_selecao_mus": "203|204",
+        "intervalo_sistematico_R$_mil": "5892.722772277227722772277228",
+        "item_de_certeza": "Sim",
+        "distorcao_assumida_R$_mil": "12000.000",
+        "tainting_assumido": "1",
+        "projecao_pontual_R$_mil": "12000.000",
+        "premissa": "Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+      },
+      {
+        "asset_id_sintetico": "SIM-IMOB-003002",
+        "valor_contabil_liquido_R$_mil": "10000.000",
+        "unidades_monetarias_selecionadas": 2,
+        "ordens_selecao_mus": "205|206",
+        "intervalo_sistematico_R$_mil": "5892.722772277227722772277228",
+        "item_de_certeza": "Sim",
+        "distorcao_assumida_R$_mil": "10000.000",
+        "tainting_assumido": "1",
+        "projecao_pontual_R$_mil": "10000.000",
+        "premissa": "Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+      },
+      {
+        "asset_id_sintetico": "SIM-IMOB-003003",
+        "valor_contabil_liquido_R$_mil": "8000.000",
+        "unidades_monetarias_selecionadas": 1,
+        "ordens_selecao_mus": "207",
+        "intervalo_sistematico_R$_mil": "5892.722772277227722772277228",
+        "item_de_certeza": "Sim",
+        "distorcao_assumida_R$_mil": "8000.000",
+        "tainting_assumido": "1",
+        "projecao_pontual_R$_mil": "8000.000",
+        "premissa": "Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+      },
+      {
+        "asset_id_sintetico": "SIM-IMOB-003004",
+        "valor_contabil_liquido_R$_mil": "5000.000",
+        "unidades_monetarias_selecionadas": 1,
+        "ordens_selecao_mus": "208",
+        "intervalo_sistematico_R$_mil": "5892.722772277227722772277228",
+        "item_de_certeza": "Não",
+        "distorcao_assumida_R$_mil": "5000.000",
+        "tainting_assumido": "1",
+        "projecao_pontual_R$_mil": "5892.722772277227722772277228",
+        "premissa": "Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+      },
+      {
+        "asset_id_sintetico": "SIM-IMOB-003005",
+        "valor_contabil_liquido_R$_mil": "4000.000",
+        "unidades_monetarias_selecionadas": 1,
+        "ordens_selecao_mus": "209",
+        "intervalo_sistematico_R$_mil": "5892.722772277227722772277228",
+        "item_de_certeza": "Não",
+        "distorcao_assumida_R$_mil": "4000.000",
+        "tainting_assumido": "1",
+        "projecao_pontual_R$_mil": "5892.722772277227722772277228",
+        "premissa": "Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+      }
+    ],
+    "arquivo_detalhe_projecao": "pt530_detalhe_projecao_mus.csv",
+    "limite": "Estimativa pontual simplificada de erro plantado com tainting de 100%; não é limite superior/confiança estatística e não é estimativa da MDIA3. Fator 3,0 e PM como proxy não são prescrição normativa"
+  },
+  "amostra_combinada_n": 441,
+  "selecao_focada": "Censo das regras sintéticas de exceção mais 25 maiores saldos; seleção não estatística e não projetável",
+  "consolidado_gerado_R$_mil": {
+    "custo": "7205695.000",
+    "depreciacao": "3634705.000",
+    "saldo_liquido": "3570990.000"
+  },
+  "diferencas_custo_menos_depreciacao_vs_saldo": 0,
+  "itens_com_depreciacao_maior_que_custo": 0,
+  "excecoes_por_regra": {
+    "BAIXA_NAO_REGISTRADA": 5,
+    "ETIQUETA_AUSENTE": 12,
+    "NAO_LOCALIZADO_SIMULADO": 8,
+    "CIP_DISPONIVEL_NAO_TRANSFERIDO": 12
+  },
+  "exposicao_potencial_baixas_nao_registradas_R$_mil": "39000.000",
+  "projecao_pontual_MUS_baixas_sinteticas_R$_mil": "41785.44554455445544554455446",
+  "projecao_MUS_metodo_limite": "Itens com múltiplas unidades monetárias tratados como certeza; demais exceções selecionadas projetadas por intervalo × tainting. Estimativa didática não é limite superior nem evidência da companhia.",
+  "exposicao_potencial_nao_localizados_sinteticos_R$_mil": "3.848",
+  "materialidade_global_R$_mil": "35413.500",
+  "materialidade_execucao_R$_mil": "17706.750",
+  "limiar_trivial_R$_mil": "1770.675",
+  "exposicao_baixas_maior_materialidade_global": true,
+  "comparacao_excecoes_inseridas_identificadas": [
+    {
+      "codigo_excecao": "BAIXA_NAO_REGISTRADA",
+      "itens_inseridos": 5,
+      "itens_identificados": 5,
+      "verdadeiros_positivos": 5,
+      "nao_identificados": 0,
+      "falsos_positivos": 0,
+      "resultado": "Concordante no cenário sintético"
+    },
+    {
+      "codigo_excecao": "CIP_DISPONIVEL_NAO_TRANSFERIDO",
+      "itens_inseridos": 12,
+      "itens_identificados": 12,
+      "verdadeiros_positivos": 12,
+      "nao_identificados": 0,
+      "falsos_positivos": 0,
+      "resultado": "Concordante no cenário sintético"
+    },
+    {
+      "codigo_excecao": "ETIQUETA_AUSENTE",
+      "itens_inseridos": 12,
+      "itens_identificados": 12,
+      "verdadeiros_positivos": 12,
+      "nao_identificados": 0,
+      "falsos_positivos": 0,
+      "resultado": "Concordante no cenário sintético"
+    },
+    {
+      "codigo_excecao": "NAO_LOCALIZADO_SIMULADO",
+      "itens_inseridos": 8,
+      "itens_identificados": 8,
+      "verdadeiros_positivos": 8,
+      "nao_identificados": 0,
+      "falsos_positivos": 0,
+      "resultado": "Concordante no cenário sintético"
+    }
+  ],
+  "limitacao": "Resultados pertencem exclusivamente a um cenário sintético. Sinais, exposições e exceções não são evidência sobre a companhia."
+}

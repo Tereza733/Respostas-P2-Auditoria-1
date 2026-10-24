@@ -1,0 +1,5 @@
+﻿codigo_excecao;itens_inseridos;itens_identificados;verdadeiros_positivos;nao_identificados;falsos_positivos;resultado
+BAIXA_NAO_REGISTRADA;5;5;5;0;0;Concordante no cenário sintético
+CIP_DISPONIVEL_NAO_TRANSFERIDO;12;12;12;0;0;Concordante no cenário sintético
+ETIQUETA_AUSENTE;12;12;12;0;0;Concordante no cenário sintético
+NAO_LOCALIZADO_SIMULADO;8;8;8;0;0;Concordante no cenário sintético

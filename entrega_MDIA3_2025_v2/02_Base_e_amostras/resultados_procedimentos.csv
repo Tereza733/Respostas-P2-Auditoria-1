@@ -1,0 +1,11 @@
+﻿teste;populacao;excecoes;exposicao_potencial_R$_mil;resultado
+PT530-01 Contagem e unicidade;500000;0;0;500.000 IDs sintéticos únicos
+PT500-01 Conciliação de custo bruto;500000;0;0,000;"Total sintético comparado ao custo bruto divulgado; sem evidência real"
+PT500-02 Depreciação acumulada;500000;0;0,000;"Total sintético comparado ao saldo divulgado; sem evidência real"
+PT500-03 Recalcular valor líquido;500000;0;0;Custo menos depreciação recalculado em cada linha
+PT530-02 AAS descritiva de campos-chave;500000;0;Não aplicável;"n=384 sem reposição; campos-chave ausentes na amostra=0; teste apenas de qualidade dos dados sintéticos"
+PT530-03 MUS: seleção e projeção pontual sintética;500000;5 baixas fictícias selecionadas;41785,44554455445544554455446;"n=606 unidades; 603 IDs; intervalo 5892.723 BRL mil; projeção simplificada 41785.446 BRL mil; não é limite superior nem projeção para MDIA3"
+PT330/530-03 Baixas ainda registradas;500000;5;39000,000;"Exceção deliberadamente plantada; comparar com materialidade apenas no cenário"
+PT330/530-04 Projetos disponíveis ainda em andamento;500000;12;Não quantificada;"Exceção deliberadamente plantada; validar data e depreciação"
+PT330/530-05 Itens não localizados em vistoria simulada;500000;8;3,848;"Atributo de cenário; não é inspeção real"
+PT265/330-06 Etiquetas ausentes;500000;12;Não quantificada;"Deficiência de rastreabilidade plantada; não constitui distorção quantificada"

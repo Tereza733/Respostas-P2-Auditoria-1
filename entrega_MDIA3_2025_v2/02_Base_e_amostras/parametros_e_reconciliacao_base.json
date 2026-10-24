@@ -1,0 +1,96 @@
+{
+  "matricula": "202062044",
+  "base": "base_imobilizado_sintetica_500000.csv.gz",
+  "seed": 20261021,
+  "data_referencia": "2025-12-31",
+  "registros_de_dados": 500000,
+  "linhas_com_cabecalho_no_csv_descompactado": 500001,
+  "unidade_monetaria": "BRL mil, 3 casas decimais (BRL 1 de precisão)",
+  "aviso": "População integralmente sintética. IDs, classes por item, datas, unidades, subtipo, etiquetas, vistoria e rateio individual de custos/depreciação não são dados da MDIA3. Datas não são insumo do rateio sintético de depreciação. Somente saldos agregados por classe foram calibrados à Nota 11 consolidada de 2025.",
+  "versao_metodo": "2.0 — removidas vidas úteis/taxas/métodos por item sem evidência de cadastro; nenhuma depreciação individual é inferida a partir das datas sintéticas.",
+  "totais_publicados_R$_mil": {
+    "custo_historico": 7205695,
+    "depreciacao_acumulada": 3634705,
+    "valor_contabil_liquido": 3570990
+  },
+  "totais_gerados_R$_mil": {
+    "custo_historico": 7205695,
+    "depreciacao_acumulada": 3634705,
+    "valor_contabil_liquido": 3570990
+  },
+  "classes": [
+    {
+      "classe_contabil": "Edificações",
+      "linhas_sinteticas": 3000,
+      "custo_publicado_R$_mil": 1740776,
+      "custo_gerado_R$_mil": 1740776,
+      "depreciacao_publicada_R$_mil": 548812,
+      "depreciacao_gerada_R$_mil": 548812,
+      "saldo_liquido_publicado_R$_mil": 1191964,
+      "saldo_liquido_gerado_R$_mil": 1191964
+    },
+    {
+      "classe_contabil": "Máquinas e equipamentos",
+      "linhas_sinteticas": 210000,
+      "custo_publicado_R$_mil": 3682384,
+      "custo_gerado_R$_mil": 3682384,
+      "depreciacao_publicada_R$_mil": 2388537,
+      "depreciacao_gerada_R$_mil": 2388537,
+      "saldo_liquido_publicado_R$_mil": 1293847,
+      "saldo_liquido_gerado_R$_mil": 1293847
+    },
+    {
+      "classe_contabil": "Móveis e utensílios",
+      "linhas_sinteticas": 160000,
+      "custo_publicado_R$_mil": 145342,
+      "custo_gerado_R$_mil": 145342,
+      "depreciacao_publicada_R$_mil": 97227,
+      "depreciacao_gerada_R$_mil": 97227,
+      "saldo_liquido_publicado_R$_mil": 48115,
+      "saldo_liquido_gerado_R$_mil": 48115
+    },
+    {
+      "classe_contabil": "Veículos",
+      "linhas_sinteticas": 10000,
+      "custo_publicado_R$_mil": 256948,
+      "custo_gerado_R$_mil": 256948,
+      "depreciacao_publicada_R$_mil": 127743,
+      "depreciacao_gerada_R$_mil": 127743,
+      "saldo_liquido_publicado_R$_mil": 129205,
+      "saldo_liquido_gerado_R$_mil": 129205
+    },
+    {
+      "classe_contabil": "Instalações",
+      "linhas_sinteticas": 40000,
+      "custo_publicado_R$_mil": 572492,
+      "custo_gerado_R$_mil": 572492,
+      "depreciacao_publicada_R$_mil": 306773,
+      "depreciacao_gerada_R$_mil": 306773,
+      "saldo_liquido_publicado_R$_mil": 265719,
+      "saldo_liquido_gerado_R$_mil": 265719
+    },
+    {
+      "classe_contabil": "Imobilizações em andamento",
+      "linhas_sinteticas": 30000,
+      "custo_publicado_R$_mil": 415229,
+      "custo_gerado_R$_mil": 415229,
+      "depreciacao_publicada_R$_mil": 2220,
+      "depreciacao_gerada_R$_mil": 2220,
+      "saldo_liquido_publicado_R$_mil": 413009,
+      "saldo_liquido_gerado_R$_mil": 413009
+    },
+    {
+      "classe_contabil": "Outros",
+      "linhas_sinteticas": 47000,
+      "custo_publicado_R$_mil": 392524,
+      "custo_gerado_R$_mil": 392524,
+      "depreciacao_publicada_R$_mil": 163393,
+      "depreciacao_gerada_R$_mil": 163393,
+      "saldo_liquido_publicado_R$_mil": 229131,
+      "saldo_liquido_gerado_R$_mil": 229131
+    }
+  ],
+  "registro_de_excecoes_inseridas": "registro_excecoes_inseridas.csv",
+  "quantidade_de_excecoes_inseridas": 37,
+  "fundamento_sintetico": "CPC 27, item 9, exige julgamento sobre a unidade de reconhecimento. O cenário assume um item fictício por linha; não replica a política contábil nem o auxiliar patrimonial da companhia. O custo e a depreciação por item são rateios sintéticos usados para conciliar os totais divulgados por classe."
+}
