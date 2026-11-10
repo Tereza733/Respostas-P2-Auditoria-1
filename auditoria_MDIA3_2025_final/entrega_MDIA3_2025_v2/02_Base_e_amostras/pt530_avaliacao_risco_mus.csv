@@ -1,0 +1,20 @@
+﻿indicador;valor;unidade;interpretacao
+Saldo populacional conciliado;3570990,000;BRL mil;"Base sintética; total confirmado por conciliação."
+Unidades monetárias selecionadas;606;unidades;Desenho didático com risco-alvo de aceitação incorreta de 5%.
+IDs distintos selecionados;603;IDs;IDs podem receber mais de uma unidade monetária.
+Intervalo sistemático;5892,722772277227722772277228;BRL mil;Saldo líquido da população dividido pelas unidades monetárias.
+Baixas fictícias selecionadas;5;itens de 5 plantados;Cobertura observada somente neste cenário sintético.
+Erro assumido em itens de certeza;30000,000;BRL mil;"Três itens de certeza; erro integral assumido no cenário."
+Projeção pontual total;41785,44554455445544554455446;BRL mil;"Erro dos itens de certeza mais projeção pontual dos demais; não é UEL."
+Precisão básica;17678,16831683168316831683168;BRL mil;"Fator acumulado 3,00 × intervalo; confiança unilateral aproximada de 95%."
+Projeção pontual dos erros não certeza;11785,44554455445544554455446;BRL mil;"Soma de tainting × intervalo para os dois erros abaixo do intervalo; componente da projeção pontual e também do UEL."
+Ajuste incremental de risco — erro 1;4419,542079207920792079207921;BRL mil;"Projeção pontual × (1.75 − 1,00); separado da projeção pontual do erro."
+Ajuste incremental de risco — erro 2;3240,997524752475247524752475;BRL mil;"Projeção pontual × (1.55 − 1,00); separado da projeção pontual do erro."
+Ajustes incrementais de risco — total;7660,539603960396039603960396;BRL mil;Soma do componente de risco, separado da projeção pontual dos erros.
+Contribuição ajustada de erros não certeza ao UEL;19445,98514851485148514851486;BRL mil;"Projeção pontual dos erros não certeza + ajustes incrementais de risco; não somar novamente em outra linha."
+Limite superior de erro (UEL, 95%);67124,15346534653465346534654;BRL mil;Erro observado em itens de certeza + precisão básica + projeções pontuais não certeza + ajustes incrementais de risco.
+Distorção tolerável (proxy) usada;17706,750;BRL mil;Materialidade de execução usada apenas como proxy didática.
+Excesso do UEL sobre distorção tolerável;49417,40346534653465346534654;BRL mil;"Não atende ao critério de aceitação didático: limite superior de erro acima da distorção tolerável; investigar as exceções, considerar correção e ampliar/redesenhar procedimentos."
+Razão UEL / distorção tolerável;3,790879380199445672044014093;vezes;Acima de 1, o resultado da amostra não sustenta aceitação no limite didático.
+Materialidade global acadêmica;35413,500;BRL mil;Benchmark acadêmico de 5% do resultado antes de IR/CSLL.
+Excesso do UEL sobre materialidade global;31710,65346534653465346534654;BRL mil;"UEL menos materialidade global acadêmica; comparação auxiliar do cenário."

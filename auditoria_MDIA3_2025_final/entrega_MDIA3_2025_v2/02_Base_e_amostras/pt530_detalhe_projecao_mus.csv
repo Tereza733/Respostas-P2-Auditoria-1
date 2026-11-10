@@ -1,0 +1,6 @@
+﻿asset_id_sintetico;valor_contabil_liquido_R$_mil;unidades_monetarias_selecionadas;ordens_selecao_mus;intervalo_sistematico_R$_mil;item_de_certeza;distorcao_assumida_R$_mil;tainting_assumido;projecao_pontual_R$_mil;premissa
+SIM-IMOB-003001;12000,000;2;203|204;5892,722772277227722772277228;Sim;12000,000;1;12000,000;"Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+SIM-IMOB-003002;10000,000;2;205|206;5892,722772277227722772277228;Sim;10000,000;1;10000,000;"Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+SIM-IMOB-003003;8000,000;1;207;5892,722772277227722772277228;Sim;8000,000;1;8000,000;"Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+SIM-IMOB-003004;5000,000;1;208;5892,722772277227722772277228;Não;5000,000;1;5892,722772277227722772277228;"Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
+SIM-IMOB-003005;4000,000;1;209;5892,722772277227722772277228;Não;4000,000;1;5892,722772277227722772277228;"Baixa integral assumida somente no cenário sintético; sem contraprestação hipotética"
